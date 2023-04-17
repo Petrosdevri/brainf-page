@@ -3,23 +3,20 @@ html body {
   color: #CFCFCF;
   font-family: Monospace;
 }
-
-.bf-word {
+html body .container .bf-word {
+  flex-wrap: wrap;
   font-size: 1.6em;
   opacity: 0.4;
   overflow: hidden;
   -webkit-line-clamp: 1;
   white-space: nowrap;
 }
-
-.left {
+html body .container .left {
   animation: scrollLeft 12s ease-in infinite;
 }
-
-.right {
+html body .container .right {
   animation: scrollRight 12s ease-in infinite;
 }
-
 @keyframes scrollLeft {
   0% {
     transform: translateX(0);
@@ -35,4 +32,4 @@ html body {
   100% {
     transform: translateX(30%);
   }
-}
+}/*# sourceMappingURL=style.css.map */

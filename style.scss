@@ -1,0 +1,42 @@
+html body {
+    background: #34414D;
+    color: #CFCFCF;
+    font-family: Monospace;
+
+    .container {
+        .bf-word {
+          flex-wrap: wrap;
+          font-size: 1.6em;
+          opacity: 0.4;
+          overflow: hidden;
+          -webkit-line-clamp: 1;
+          white-space: nowrap;
+        }
+
+        .left {
+          animation: scrollLeft 12s ease-in infinite;
+        }
+
+        .right {
+          animation: scrollRight 12s ease-in infinite;
+        }
+
+        @keyframes scrollLeft {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-30%);
+            }
+        }
+
+        @keyframes scrollRight {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(30%);
+          }
+        }
+    }
+}
