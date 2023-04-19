@@ -1,3 +1,2 @@
-# brainf-page
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-thwg3r)
+# Brainnfuck Page
+A bizarre page with animated Brainfuck lines. 
